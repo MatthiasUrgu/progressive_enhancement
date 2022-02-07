@@ -18,7 +18,7 @@ header{
     background:rgba(255, 255, 0, 0.897)
 }
 
-/* image le long de la liste à puce */
+/* image le long de la liste à puce ------------- */
 
 .up{width: 30px;}
 .down{width: 30px;}
@@ -26,7 +26,7 @@ header{
 
 
 
-/*     Premier gros texte         */
+/*     Premier gros texte ----------------------- */
 
 .quote { 
       font-size: 160%;
@@ -41,7 +41,7 @@ header{
     
 }
 
-/* Deuxième gros texte */
+/* Deuxième gros texte ---------------------- */
 
 #farmer { 
     
@@ -54,44 +54,46 @@ header{
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
-    
-  
+      
 }
 
 
 
-/* modifications des Bad et Good         */
+/* modifications des Bad et Good --------------- */
 
 
 
 .bad{color:red;
-    text-transform: uppercase;
+     text-transform: uppercase;
 }
 .good{color:green;
-text-transform: uppercase;}
+      text-transform: uppercase;}
 
 table{color: black;}
 
   
-/* Tableaux                                       */
+/* Tableaux  ----------------------------------*/
 
 .white{background:  white;}
 .grey{background:  grey;}
 
 
 
-/* Float des images 1 et 3 */
+/* Float des images 1 et 3  -------------------------*/
 
 .imgA{
     float: left;
     margin-top: 25px;
     margin-right: 30px;
-    width: 30%;}
+    width: 30%;
+}
 
-.imgB{width: 30%;}
+.imgB{
+    width: 30%;
+}
 
 
-/*  Design des liens */
+/*  Design des liens -------------------------------*/
 
 .link:link{
     color: white;
