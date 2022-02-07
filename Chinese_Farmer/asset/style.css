@@ -1,3 +1,5 @@
+
+
 body{
     margin: auto;
     width: 90%;
@@ -8,24 +10,27 @@ body{
     background-image: url(/Chinese_Farmer/asset/img/background.jpg);
     background-size: cover;
     background-position: bottom right;
-    }
+}
 
- .link:link{
-    color: white;
-    background-color: #f44336;
-  
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+
+
+header{
+    background:rgba(255, 255, 0, 0.897)
 }
-.link:visited{
-    color: black;
-}
+
+/* image le long de la liste à puce */
+
+.up{width: 30px;}
+.down{width: 30px;}
+.cat{width: 30px;}
+
+
+
+/*     Premier gros texte         */
+
 .quote { 
       font-size: 160%;
       background-color: rgba(160, 160, 160, 0.062); 
- 
       border-left: 3px solid firebrick; 
       border-spacing: 30px;
       padding-left: 30px;
@@ -35,6 +40,9 @@ body{
     
     
 }
+
+/* Deuxième gros texte */
+
 #farmer { 
     
     font-size: 160%;
@@ -49,9 +57,13 @@ body{
     
   
 }
-header{
-    background:rgba(255, 255, 0, 0.897)
-}
+
+
+
+/* modifications des Bad et Good         */
+
+
+
 .bad{color:red;
     text-transform: uppercase;
 }
@@ -60,14 +72,15 @@ text-transform: uppercase;}
 
 table{color: black;}
 
-
+  
+/* Tableaux                                       */
 
 .white{background:  white;}
 .grey{background:  grey;}
 
-.up{width: 30px;}
-.down{width: 30px;}
-.cat{width: 30px;}
+
+
+/* Float des images 1 et 3 */
 
 .imgA{
     float: left;
@@ -76,3 +89,19 @@ table{color: black;}
     width: 30%;}
 
 .imgB{width: 30%;}
+
+
+/*  Design des liens */
+
+.link:link{
+    color: white;
+    background-color: #f44336;
+  
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.link:visited{
+    color: black;
+}
