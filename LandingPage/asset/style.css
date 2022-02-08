@@ -1,0 +1,185 @@
+/* importation typo */ 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+/*nom des fonts 
+
+font-family: 'Varela Round', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+*/
+
+
+
+header{
+    margin: 3% 15% 5% 20%;
+    
+}
+
+body{
+    
+    margin:0;
+    padding:0;
+}
+
+/* logo menu et button compris dans la flexbox */
+
+
+header{ 
+    display: flex;
+    margin-bottom:8%}
+
+/* Logo --------------------------*/
+
+.button_Logo {
+    
+    background-color: red;
+    border-radius: 180px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: none;
+    
+}
+.NameLogo{
+    padding-left: 8px;
+    display: inline;
+ 
+}
+
+/* Menu ------------------------*/
+
+
+.Menu {
+    
+    margin-top: 2px;
+    }
+
+.Menu_puce{
+    display: inline;
+}
+.Menu li {
+    display: inline;
+    padding-left: 8px;
+
+}
+
+
+/* boutton request a demo */ 
+
+
+.request_button {
+    
+    padding-left: 100px;
+    
+}
+
+.button_request{
+
+    background: none;
+    color: red;
+    border-color: rgb(70, 29, 29);
+    border: 1px solid red;
+    padding: 8px 3px;
+}
+
+/* Bloc text intro ---------------------*/
+
+
+.BlocText{
+
+   align-self: center;
+   padding-right: 15px;
+   margin: 0 auto;
+    
+
+}
+
+/* flex l'image et le block */  
+.Flex_Intro{
+    display: flex;
+    margin-bottom: 15%;
+    
+}
+
+.BigText{
+    
+    font-size: 75px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+/* flex du boutton et phrase dans le bloc text */
+
+.Flex_Button_Text{
+
+    display: flex;
+    align-self: flex-end
+    ;
+}
+
+
+/* Changement de couleur petites lignes */
+
+.LittleText {
+    font-size: 13px;
+    color: grey;
+    opacity: 60%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#snap {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#snip {
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+/* button INTRO */
+
+.button_Big {
+    background: rgba(240, 6, 26, 0.959);
+    color: white;
+    border-radius: 8px;
+    padding: 18px;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+
+
+/*Deuxieme section ----------------------------*/
+/* fond dégradé */
+
+
+/* .graph_graphique{
+    
+
+} */
+
+
+
+
+/* To delete */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.background{
+    background: red;
+    margin:0 ;
+    
+}
