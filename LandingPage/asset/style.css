@@ -3,12 +3,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 /*nom des fonts 
 
 font-family: 'Varela Round', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 
+chiffre: 
+    font-family: 'Roboto', sans-serif;
 */
 
 
@@ -155,18 +159,6 @@ header{
 
 
 
-/*Deuxieme section ----------------------------*/
-/* fond dégradé */
-
-
-/* .graph_graphique{
-    
-
-} */
-
-
-
-
 /* To delete */
 
 .container{
@@ -181,5 +173,182 @@ header{
 .background{
     background: red;
     margin:0 ;
+    height: 650px;
     
+}
+
+.zombie{
+    display: absolute;
+    padding-top: 30px;
+    
+}
+
+/* Dessous du graphique Marques logo */
+
+
+.marques{display: flex;} 
+
+.Marque_Logo{
+
+    width: 10%;
+    margin: 0 auto;
+    opacity: 30%;
+}
+
+.facebook{
+    height: 60px;
+    align-self: center;
+}
+.samsung {
+    height: 50px;
+    align-self: center;
+}
+
+.marques{
+margin-bottom: 10%;
+
+}
+/* Deuxieme gros bloc texte */ 
+
+.snop{
+    font-size: 18px;
+    
+    width: 400px;
+}
+
+.button_tiny{
+    border: none;
+    background: white;
+    color: red;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+
+
+.grid_box{
+    display: flex;
+    
+}
+.box_one{
+    
+    border: 1px solid ;
+    border-color: rgba(173, 173, 173, 0.192);
+    border-radius: 15px;
+    padding-left: 30px;
+}
+
+
+
+.Bag{
+    width: 30%;
+    
+}
+.move_bag{
+    margin: 30px 0 30px 0;
+}
+
+.starter{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+.emote{width: 7%;
+}
+.paragraph{
+    margin: 25px 0 25px 0;
+}
+
+
+.prix{ font-family: 'Roboto', sans-serif;
+font-size: 20px;
+padding-bottom: 5px;}
+
+.light{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.411);
+    
+}
+.Prix_light{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.411);
+    padding-bottom: 35px;}
+
+.button_get{
+    
+    background: none;
+    color: red;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 8px;
+    padding:10px 35px; 
+
+}
+
+
+.box_two{
+    elevation: 15px;
+    background: white;
+    border: 1px solid ;
+    border-color: rgba(173, 173, 173, 0.192);
+    border-radius: 15px;
+    padding-left: 30px;
+    box-shadow: 2px 1px 1px 2px rgba(104, 102, 102, 0.151);
+    
+}
+
+.button_get_two{
+    
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-radius: 8px;
+    padding:10px 35px; 
+
+}
+
+.Flex_three{margin-bottom: 20%;}
+
+.background_two{
+    background: red;
+    margin:0 ;
+    height: 650px;
+    
+}
+
+.zombie{
+    display: absolute;
+    padding-top: 30px;
+    
+}
+
+
+.flex_footer{display:flex;
+margin-right: 15px;}
+
+
+
+.logo__{margin-right: 200px;}
+
+.Link{margin-right: 100px;}
+.Legal{margin-right: 100px;}
+.footer_P{font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+padding-bottom: 30px;}
+
+
+.input{border: 1px solid;
 }
