@@ -363,7 +363,7 @@ padding-bottom: 5px;}
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
     border-radius: 8px;
-    padding:10px 35px; 
+    padding:20px 40px; 
 
 }
 
@@ -384,7 +384,9 @@ margin-right: 15px;}
 
 
 
-.logo__{margin-right: 200px;}
+.logo__{
+    padding-top: 15px;
+    margin-right: 200px;}
 
 .Link{margin-right: 100px;}
 
@@ -404,4 +406,22 @@ margin-right: 15px;}
 .input{border: 1px solid;
 }
 
-input{ border: none;}
+input{border: none;}
+
+.input{ 
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 9px;
+}
+
+
+.button_get_three{
+background-color: red;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-size: 20pxpx;
+border: none;
+border-radius: 5px;
+padding: 15px;
+
+}
