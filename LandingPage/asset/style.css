@@ -326,6 +326,7 @@ padding-bottom: 5px;}
     background: red;
     margin:0 ;
     height: 650px;
+    margin-bottom: 8%;
     
 }
 
@@ -344,11 +345,21 @@ margin-right: 15px;}
 .logo__{margin-right: 200px;}
 
 .Link{margin-right: 100px;}
+
 .Legal{margin-right: 100px;}
-.footer_P{font-family: 'Ubuntu', sans-serif;
-font-size: 20px;
-padding-bottom: 30px;}
+
+.footer_P{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;}
+
+.footer_text{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.377);
+}
 
 
 .input{border: 1px solid;
 }
+
+input{ border: none;}
