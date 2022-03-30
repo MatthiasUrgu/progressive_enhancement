@@ -11,3 +11,6 @@ Introduction sur l'utilisation du CSS et HTML
 # 2.projet : Landing Page
 
 Reproduction d'un visuel donné 
+
+
+![alt text for screen readers](https://raw.githubusercontent.com/becodeorg/CRL-Keller-4/main/1.The-Field/04.HTML-CSS/assets/Landing_page.png?token=GHSAT0AAAAAABR4O3XUPIYHQ2YAZ5GGW7TCYSNIRAA)
